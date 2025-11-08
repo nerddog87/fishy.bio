@@ -262,9 +262,9 @@ function updateDiscordUI(userData) {
     }
     
     const statusTexts = {
-        'online': 'availible',
-        'idle': 'probably away',
-        'dnd': 'jerking off',
+        'online': 'online',
+        'idle': 'away',
+        'dnd': 'busy',
         'offline': 'sleeping'
     };
     
@@ -510,3 +510,4 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeSocialLinks();
 
 });
+
