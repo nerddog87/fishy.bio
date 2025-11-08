@@ -37,8 +37,13 @@ html {
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+     font-family: 'Inter', sans-serif;
     background: var(--bg-primary);
+    background-image: url('bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
     color: var(--text-primary);
     overflow-x: hidden;
     min-height: 100vh;
@@ -974,4 +979,5 @@ body {
 .social-link.copying {
     transform: scale(0.95);
     background: rgba(255, 255, 255, 0.05);
+
 }
