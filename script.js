@@ -21,10 +21,6 @@ let snowCanvas = null;
 let snowCtx = null;
 let snowAnimationId = null;
 
-document.addEventListener('DOMContentLoaded', function() {
-    initializeCursor();
-    initializeEntryPage();
-});
 
 function initializeCursor() {
     const cursor = document.querySelector('.cursor');
